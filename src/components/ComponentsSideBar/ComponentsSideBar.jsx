@@ -26,8 +26,8 @@ const Action =(props)=>{
 			<div className ='item' onClick={()=>{clickHandler('actionsWithButton')}}><img src={img}/><span>Button</span></div>
 			<div className ='item' onClick={()=>{clickHandler('actionsWithButtonAsLink')}}><img src={img}/><span>Button As Link</span></div>
 			<div className ='item' onClick={()=>{clickHandler('actionsWithDatePicker')}}><img src={img}/><span>Date Picker</span></div>
-			<div className ='item' onClick={()=>{clickHandler('actionsWithFilteredConversationsSelect')}}><img src={img}/><span>Filtered Conversations</span></div>
-			<div className ='item' onClick={()=>{clickHandler('actionsWithInitializedSelects')}}><img src={img}/><span>Initialized Selects</span></div>
+			{/* <div className ='item' onClick={()=>{clickHandler('actionsWithFilteredConversationsSelect')}}><img src={img}/><span>Filtered Conversations</span></div>
+			<div className ='item' onClick={()=>{clickHandler('actionsWithInitializedSelects')}}><img src={img}/><span>Initialized Selects</span></div> */}
 		</div>
 	)
 }
