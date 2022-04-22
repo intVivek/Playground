@@ -4,4 +4,44 @@
 	overflow: auto;
 	box-sizing: border-box;
 	padding: 20px;
+
+	> .element{
+		position: relative;
+		width: 100%;
+		transition: 0.1s;
+		box-shadow: 0 0 0px 0px rgb(255, 255, 255);
+		padding: 5px 0;
+
+		>div{
+			margin: 0px!important;
+			margin-block-end: 0rem!important;
+		}
+
+		>.close{
+			position: absolute;
+			top: -5px;
+			right: -5px;
+			width: 10px;
+			height: 10px;
+			visibility: hidden;
+			cursor: pointer;
+
+			&:hover{
+				transform: scale(1.01);
+				transition: 0.1s;
+			}
+		}
+		
+		&:hover{
+			border: 1px solid #E1E1E1;
+			border-radius: 3px;
+			box-shadow: 0 0 0px 0px rgb(214, 214, 214);
+			transform: scale(1.01);
+			transition: 0.1s;
+
+			>.close{
+				visibility: visible;
+			}
+		}
+	}
 }

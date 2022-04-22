@@ -14,7 +14,7 @@ const Home = () => {
 			<NavBar/>
 			<div className='Home'>
 				<ComponentsSideBar setSource={setSource} />
-				<Preview source={source} />
+				<Preview source={source} setSource={setSource}/>
 				<Editor source={source} setSource={setSource}/>
 			</div>
 		</>
