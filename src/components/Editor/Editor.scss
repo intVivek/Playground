@@ -1,0 +1,26 @@
+.Editor{
+	width: 35%; height: 100%;
+	border-left: 1px solid  #D3DCE4;
+	background: #F5F7F9;
+	white-space: break-spaces;
+	overflow: auto;
+	border: none;
+	border-left: 1px solid  #D3DCE4;
+	box-sizing: border-box;
+	padding: 20px;
+	background: url(http://i.imgur.com/2cOaJ.png);
+    background-attachment: local;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    padding-top: 10px;
+	transition: 0.3s;
+
+	&:focus{
+		outline: none;
+	}
+}
+
+.editorError{
+	box-shadow: inset 0px 0px 20px 12px #f5455c26;
+	transition: 0.3s;
+}

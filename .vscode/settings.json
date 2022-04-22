@@ -1,0 +1,11 @@
+{
+	"files.eol": "\n",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true,
+		"source.fixAll.stylelint": true
+	},
+    "editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+    "cSpell.words": [
+	]
+}

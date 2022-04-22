@@ -1,0 +1,33 @@
+.ComponentsSideBar{
+	width: 20%; height: 100%;
+	border-right: 1px solid  #D3DCE4;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background: #F5F7F9;
+	overflow: auto;
+
+	>.dropDown{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		margin-left: 30px;
+
+		>.title{
+			font-size: 16px;
+			color: #555555;
+			margin: 12px 0px 2px 0px;
+		}
+
+		>.item{
+			font-size: 13px;
+			color: #555555;
+			margin: 4px 0px;
+			cursor: pointer;
+
+			>img{
+				margin-right: 6px;
+			}
+		}
+	}
+}
